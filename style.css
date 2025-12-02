@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    background-color:white;
+    color: black;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 24px 60px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 24px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #4b5563;
+    font-size: 14px;
+}
+
+.nav a:hover {
+    color: #111827;
+}
+
+.button {
+    padding: 8px 18px;
+    border-radius: 999px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+.class1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding-top: 40px;
+}
+
+.class2 {
+    flex: 1.2;
+}
+
+.class3 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.class4 {
+    font-size: 40px;
+}
+
+.bio {
+    font-size: 14px;
+    line-height: 1.6;
+    color: gray;
+    max-width: 540px;
+}
+
+.bio p + p {
+    margin-top: 6px;
+}
+
+.class5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 24px;
+    font-size: 14px;
+    color: gray;
+}
+.emoji {
+    display: flex;
+    gap: 14px;
+    margin-top: 24px;
+    font-size: 18px;
+}
+.Image {
+    flex: 0.9;
+    display: flex;
+    justify-content: center;
+}
+
+.image-card img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 14px;
+}
+/* for footer  */
